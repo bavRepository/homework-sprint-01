@@ -13,7 +13,7 @@ type UserType = {
 };
 
 type UserListPropsType = {
-  users: UserType[]; // ПО МОЕМУ ЧЕГО-ТО НЕ ХВАТАЕТ...
+  users: UserType[];
 };
 
 export const UserList:FC<UserListPropsType> = (props) => {
